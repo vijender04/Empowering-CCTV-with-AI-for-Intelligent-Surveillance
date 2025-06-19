@@ -1,4 +1,4 @@
-# Anomaly detection in surveillance videos using [UR-DMU](https://github.com/henrryzh1/UR-DMU.git)
+# Empowering-CCTV-with-AI-for-Intelligent-Surveillance(https://github.com/henrryzh1/UR-DMU.git)
 
 Added some demo codes, and Grad Cam code too.
 
