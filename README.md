@@ -1,4 +1,5 @@
-# Empowering-CCTV-with-AI-for-Intelligent-Surveillance
+# Empowering-CCTV-with-AI-for-Intelligent-Surveillance - Trinetra (त्रिनेत्र )
+
 Added some demo codes, and Grad Cam code too.
 
 - Videos are split into fixed-size lengths (16 frames). To understand the overall structure: if a video has 529 frames, it can be divided into 33 full 16-frame segments (529//16), and the last segment will be padded by repeating the last frame to form 16 frames. This creates 34 segments of (1, 3, 16, 224, 224), which are then passed through a pre-trained I3D model to extract features, resulting in (1, 34, 1024). These features are then processed by an anomaly score prediction model, yielding (1, 34) anomaly scores. Each score is repeated 16 times to cover the original 529 frames.
